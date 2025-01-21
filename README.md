@@ -1,33 +1,65 @@
-Climate Change Prediction Using Time Series Algorithms
-This project is a comparative study of time series algorithms—GRU, ARIMA, and LSTM—for predicting climate change indicators such as temperature, CO2 emissions, sea level rise, precipitation, and wind speed. The study aims to identify the most effective forecasting method for accurate climate change predictions and policy formulation.
+<h2>Overview</h2>
+<p>Climate change is a multifaceted global challenge requiring accurate forecasting models for mitigation and adaptation strategies. This project uses advanced machine learning and statistical models to analyze historical climate data and predict future trends.</p>
 
-Overview
-Climate change is a multifaceted global challenge requiring accurate forecasting models for mitigation and adaptation strategies. This project uses advanced machine learning and statistical models to analyze historical climate data and predict future trends.
+<h2>Features</h2>
+<ul>
+    <li>Time series forecasting using ARIMA, LSTM, and GRU.</li>
+    <li>Evaluation of models based on performance metrics: MAE, RMSE, and R².</li>
+    <li>Comparative analysis to assess the suitability of each model for different climate indicators.</li>
+    <li>Detailed insights into the strengths and limitations of each forecasting method.</li>
+</ul>
 
-Features
-Time series forecasting using ARIMA, LSTM, and GRU.
-Evaluation of models based on performance metrics: MAE, RMSE, and R².
-Comparative analysis to assess the suitability of each model for different climate indicators.
-Detailed insights into the strengths and limitations of each forecasting method.
-Technologies Used
-Programming Languages: Python
-Libraries: TensorFlow, Scikit-learn, Keras, Matplotlib, NumPy, Pandas
-Models: ARIMA, LSTM, GRU
-Dataset
-Climate data includes historical records of:
+<h2>Technologies Used</h2>
+<ul>
+    <li><strong>Programming Languages:</strong> Python</li>
+    <li><strong>Libraries:</strong> TensorFlow, Scikit-learn, Keras, Matplotlib, NumPy, Pandas</li>
+    <li><strong>Models:</strong> ARIMA, LSTM, GRU</li>
+</ul>
 
-Temperature
-CO2 emissions
-Sea level rise
-Precipitation
-Humidity
-Wind speed
-Key Objectives
-Collect and preprocess climate data from multiple locations.
-Train ARIMA, LSTM, and GRU models on the data.
-Compare model performance using MAE, RMSE, and R² metrics.
-Provide recommendations on the most suitable forecasting techniques for different climate indicators.
-Results
-LSTM and GRU outperformed ARIMA in capturing nonlinear patterns and long-term dependencies.
-ARIMA remains effective for short-term forecasting and simpler datasets.
-GRU offered computational efficiency compared to LSTM while retaining comparable accuracy.
+<h2>Dataset</h2>
+<p>Climate data includes historical records of:</p>
+<ul>
+    <li>Temperature</li>
+    <li>CO2 emissions</li>
+    <li>Sea level rise</li>
+    <li>Precipitation</li>
+    <li>Humidity</li>
+    <li>Wind speed</li>
+</ul>
+
+<h2>Key Objectives</h2>
+<ol>
+    <li>Collect and preprocess climate data from multiple locations.</li>
+    <li>Train ARIMA, LSTM, and GRU models on the data.</li>
+    <li>Compare model performance using MAE, RMSE, and R² metrics.</li>
+    <li>Provide recommendations on the most suitable forecasting techniques for different climate indicators.</li>
+</ol>
+
+<h2>Results</h2>
+<ul>
+    <li>LSTM and GRU outperformed ARIMA in capturing nonlinear patterns and long-term dependencies.</li>
+    <li>ARIMA remains effective for short-term forecasting and simpler datasets.</li>
+    <li>GRU offered computational efficiency compared to LSTM while retaining comparable accuracy.</li>
+</ul>
+
+<h2>How to Run the Project</h2>
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone https://github.com/your-repo-name/climate-change-prediction.git</code></pre>
+    </li>
+    <li>Install the required dependencies:
+        <pre><code>pip install -r requirements.txt</code></pre>
+    </li>
+    <li>Prepare the dataset and place it in the <code>data</code> folder.</li>
+    <li>Run the training script:
+        <pre><code>python train.py</code></pre>
+    </li>
+    <li>View results and model comparisons in the <code>results</code> folder.</li>
+</ol>
+
+<h2>Future Work</h2>
+<ul>
+    <li>Incorporating hybrid models (e.g., ARIMA-LSTM, ARIMA-GRU) for enhanced predictions.</li>
+    <li>Extending the dataset to include additional climate indicators and global locations.</li>
+    <li>Developing a user-friendly interface for real-time climate forecasting.</li>
+</ul>

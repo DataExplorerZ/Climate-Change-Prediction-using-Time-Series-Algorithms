@@ -42,21 +42,6 @@
     <li>GRU offered computational efficiency compared to LSTM while retaining comparable accuracy.</li>
 </ul>
 
-<h2>How to Run the Project</h2>
-<ol>
-    <li>Clone the repository:
-        <pre><code>git clone https://github.com/your-repo-name/climate-change-prediction.git</code></pre>
-    </li>
-    <li>Install the required dependencies:
-        <pre><code>pip install -r requirements.txt</code></pre>
-    </li>
-    <li>Prepare the dataset and place it in the <code>data</code> folder.</li>
-    <li>Run the training script:
-        <pre><code>python train.py</code></pre>
-    </li>
-    <li>View results and model comparisons in the <code>results</code> folder.</li>
-</ol>
-
 <h2>Future Work</h2>
 <ul>
     <li>Incorporating hybrid models (e.g., ARIMA-LSTM, ARIMA-GRU) for enhanced predictions.</li>
